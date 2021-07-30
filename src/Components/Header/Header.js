@@ -9,7 +9,7 @@ const Header = () => {
       <Title>Weather App</Title>
       <HeaderIconsContainer>
         <DarkModeToggle checked={false} size={60} />
-        <GithubLink href="https://github.com/niteshrana99/whether-app">
+        <GithubLink target="_blank" href="https://github.com/niteshrana99/whether-app">
           <GithubIcon />
         </GithubLink>
       </HeaderIconsContainer>
