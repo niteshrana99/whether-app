@@ -36,7 +36,7 @@ export const CurrentWeather = styled.div`
 
     span {
         font-weight: 200;
-        font-size: 10rem;
+        font-size: 12rem;
         color: rgb(74, 111, 161);
         margin-left: 1.5rem;
         line-height: 1;
@@ -63,17 +63,32 @@ export const FeelsLike = styled.div`
 
 export const HighLowContainer = styled.div`
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 `;
 
 export const InfoRow = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0.8rem;
+  div {
+    color: grey;
     display: flex;
-    font-size: 16px;
-    justify-content: space-around;
     align-items: center;
-    font-weight: 600;
-    color: #396bae;
-`;
+    font-size: 1.2rem;
+    width: 10rem;
+  }
+  svg {
+    fill: grey;
+    margin-right: 1rem;
+    width: 1.6rem;
+    margin-left: -0.3rem;
+  }
+  span {
+    color: #3080c8;
+    font-weight: 500;
+    font-size: 1rem;
+  }`;
 
 export const Temprature = styled.span`
     font-size: 2rem;

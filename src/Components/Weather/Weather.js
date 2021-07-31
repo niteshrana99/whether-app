@@ -54,19 +54,22 @@ const Weather = () => {
                         </HighLow>
                     </HighLowContainer>
                     <InfoRow>
-                        <HumidityIcon />
-                        <p>Humidity</p> 
-                        <p>{humidity}</p> 
+                        <div>
+                        <HumidityIcon /> Humidity
+                        </div>
+                        <span>{humidity}</span> 
                     </InfoRow>
                     <InfoRow>
-                        <PressureIcon />
-                        <p>Pressure</p> 
-                        <p>{pressure}</p> 
+                        <div>
+                        <WindIcon /> Wind
+                        </div>
+                        <span>{speed}</span> 
                     </InfoRow>
                     <InfoRow>
-                        <WindIcon />
-                        <p>Wind</p> 
-                        <p>{speed}</p> 
+                        <div>
+                        <PressureIcon /> Pressure
+                        </div>
+                        <span>{pressure}</span> 
                     </InfoRow>
                 </CurrentWeatherInfo>
             </CurrentWeatherContainer>
