@@ -37,7 +37,7 @@ export const SearchIcon = styled(SearchIconSvg)`
 export const LocationIcon = styled(LocationIconSvg)`
     position: absolute;
     right: 1%;
-    bottom: 22%;
+    bottom: 18%;
     cursor: pointer;
 `;
 

@@ -17,11 +17,9 @@ export const useWeather = () => {
         try {
             let weather = await fetchWeatherData(city);
             weather = await weather.json();
-            console.log(weather);
             let extendedForecast = await fetchExtendedForecastData(city);
             extendedForecast = await extendedForecast.json();
             extendedForecast = extendedForecast.list;
-            console.log(extendedForecast);
             dispatch({type: 'FETCH_WEATHER_SUCCESS', data: {weather, extendedForecast}})
         } catch(e) {
             dispatch({type: 'FETCH_WEATHER_FAIL', data: e.message})
