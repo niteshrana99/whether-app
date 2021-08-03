@@ -16,7 +16,8 @@ export const SectionTitle = styled.h6`
 `;
 
 export const CurrentWeatherContainer = styled.div`
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 `;
 
 
@@ -40,6 +41,9 @@ export const CurrentWeather = styled.div`
         color: rgb(74, 111, 161);
         margin-left: 1.5rem;
         line-height: 1;
+        @media only screen and (max-width: 600px) {
+        font-size: 5rem;
+    }
     }
 
     h6 {
@@ -47,6 +51,8 @@ export const CurrentWeather = styled.div`
         text-align: left;
         color: rgb(123, 152, 178);
     }
+
+    
 `;
 
 export const CurrentWeatherInfo = styled.div`
@@ -59,11 +65,17 @@ export const CurrentWeatherInfo = styled.div`
 export const FeelsLike = styled.div`
     font-size: 2.5rem;
     color:rgb(74, 111, 161);
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 12px
+    }
 `;
 
 export const HighLowContainer = styled.div`
     display: flex;
     justify-content: flex-start;
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 12px
+    }
 `;
 
 export const InfoRow = styled.div`
@@ -75,7 +87,7 @@ export const InfoRow = styled.div`
     color: grey;
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     width: 10rem;
   }
   svg {
@@ -87,7 +99,7 @@ export const InfoRow = styled.div`
   span {
     color: #3080c8;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }`;
 
 export const Temprature = styled.span`

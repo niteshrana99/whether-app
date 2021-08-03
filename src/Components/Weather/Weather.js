@@ -22,9 +22,7 @@ const Weather = () => {
         <WeatherContainer>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <SectionTitle>Current Weather</SectionTitle>
-                <div>
-                    <ToggleSwitch />
-                </div>
+
             </div>
             <CurrentWeatherContainer>
                 <CurrentWeather>

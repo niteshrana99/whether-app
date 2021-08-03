@@ -19,9 +19,8 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
         // display: flex;
         justify-content: center;
-        min-height: 100vh;
+        /* min-height: 100vh; */
         background-image: url(${bgImage});
-        background-size: contain;
-        background-repeat: round
+        background-repeat: no-repeat;
       }
 `;

@@ -7,6 +7,7 @@ export const ForeCastContainer = styled.div`
     flex-direction: row;
     margin-top: 4rem;
     background-color: white;
+    overflow: auto;
 
     h1 {
         font-weight: 500;

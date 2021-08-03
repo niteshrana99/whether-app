@@ -10,6 +10,9 @@ import Spinner from '../ui/Spinner/Spinner';
 const HomeRoot = styled.div`
     width: 60%;
     margin: 0px auto;
+    @media only screen and (max-width: 600px) {
+        width: 90%;
+    }
 `;
 
 const Home = () => {

@@ -25,6 +25,11 @@ export const SearchInput = styled.input`
     &::placeholder {
         color:#4a6fa1;
     }
+
+    @media only screen and (max-width: 600px) {
+        font-size: 1.6rem ;
+        padding-left:2.8rem;
+    }
 `;
 
 export const SearchIcon = styled(SearchIconSvg)`
