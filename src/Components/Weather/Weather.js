@@ -1,5 +1,4 @@
 import React from 'react';
-import ToggleSwitch from '../../ui/ToggleSwitch/ToggleSwitch';
 import WeatherIcon from '../WeatherIcon/WeatherIcon';
 import { CurrentWeather, CurrentWeatherContainer, CurrentWeatherInfo, FeelsLike, HighLow, HighLowContainer, InfoRow, SectionTitle, Temprature, WeatherContainer } from './Styled';
 import { ReactComponent as HighIcon } from "../../assets/high-icon.svg";

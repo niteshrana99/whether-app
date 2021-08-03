@@ -18,7 +18,8 @@ export const FooterParagraph = styled.p`
 
 export const FooterLink = styled.a`
     font-size: 2rem;
-    color: white;
+    color: #010100;
+    font-weight: 600;
     margin-left: 1rem;
     @media only screen and (max-width: 600px) {
         font-size: 1.4rem ;
