@@ -8,8 +8,6 @@ Features
 Weather forecast for any city or place
 Extended 7 days forecast
 Find user location weather by utilizing GeolocationAPI
-One-click Celcius to Fahrenheit conversion and vice versa
-Dark Mode
 Getting Started
 First you need an API key from OpenWeatherMap, you can get one by creating an account on their website. After you got your API key, create a .env file at root directory, copy the line below to the file and replace YOUR_KEY with your OpenWeatherMap API Key.
 
