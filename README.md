@@ -2,7 +2,7 @@ ReactWeather
 Weather App built with React. Live Demo Can be found at : https://nitesh-weather-app.netlify.app/
 
 Tech Stack
-React, Typescript, Redux, StyledComponents
+React, ES6, Redux, StyledComponents
 
 Features
 Weather forecast for any city or place
